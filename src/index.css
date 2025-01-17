@@ -1,0 +1,85 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #453333;
+  color: #f0ecec;
+}
+
+h1 {
+  text-align: center;
+  color: #07111c;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #01070e;
+  margin-top: 20px;
+  margin-left: 0cm;
+  margin-inline-start: auto;
+}
+
+form {
+  background: #090808;
+  padding: 2.5%;
+  border-radius: 1px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+input, select {
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #450e0e;
+  border-radius: 4px;
+  width: calc(100% / 4 - 10px); /* Dynamic width for inputs */
+}
+
+input[type="date"] {
+  width: calc(100% / 4 - 10px);
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #461313;
+  color: #f7f4f4;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3a3f43;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #4b3939;
+}
+
+th {
+  background-color: #332222;
+  color: #eef2f7;
+}
+
+tr:hover {
+  background-color: #8a5e5e;
+}
+
+.portfolio-metrics {
+  background: #0e0808;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
