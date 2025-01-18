@@ -1,5 +1,5 @@
 
-                                                                                             #Stock Portfolio Dashboard
+   #Stock Portfolio Dashboard
 
 A web-based stock portfolio tracker built using React to manage and monitor investments efficiently. This application allows users to track their stock portfolio, view real-time stock prices, and calculate profit/loss.
 
@@ -29,19 +29,19 @@ Tech Stack:
 
   Frontend
 
-React: For building the user interface.
+1) React: For building the user interface.
 
-React Router: For navigation.
+2) React Router: For navigation.
 
-Material-UI: For a modern and responsive design.
+3) Material-UI: For a modern and responsive design.
 
-Chart.js: For visualizing portfolio data.
+4) Chart.js: For visualizing portfolio data.
 
   Backend
 
-Node.js and Express: For handling API requests.
+1) Node.js and Express: For handling API requests.
 
-MongoDB: For storing user portfolios and transaction history.
+2) MongoDB: For storing user portfolios and transaction history.
 
   External APIs
 
