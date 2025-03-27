@@ -24,23 +24,17 @@ Dashboard Preview
 
 🛠 Tech Stack
 ------------------------
-
-Layer	           Technology           	Purpose
--------------------------------------------------------------
-Frontend	 React + React Router   	UI Components & Routing
-           Material-UI	            Responsive Design System
-------------------------------------------------------------------
-Data Viz	 Chart.js	                Interactive Portfolio Charts
---------------------------------------------------------------------
-Backend    Node.js + Express	      API Server & Business Logic
-----------------------------------------------------------------------
-Database	 MongoDB	                Portfolio & Transaction Storage
------------------------------------------------------------------
-External  Alpha Vantage / IEX Cloud	Real-time Market Data
-APIs
------------------------------------------------------------------
-Authentication	Firebase Auth	       Secure User Management
--------------------------------------------------------------------
+- **Frontend**:  
+  • React (UI Components)  
+  • React Router (Navigation)  
+  • Material-UI (Styled Components)  
+- **Backend**:  
+  • Node.js + Express (Server)  
+- **Data**:  
+  • MongoDB (Database)  
+  • Alpha Vantage/IEX Cloud (Market APIs)  
+- **Security**:  
+  • Firebase Auth (User Management)  
 
 ⚡ Quick Start
 ---------------------------
