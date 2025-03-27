@@ -58,10 +58,8 @@ stock-portfolio-tracker/
 ├── package.json          # Project configuration
 ├── README.md            # Project documentation
 └── tailwind.config.js    # Tailwind CSS configuration
--------------------------------------------------------------------------------
 
 ## 🛠️ Installation  
-```bash
 # Clone repository
 git clone https://github.com/your-username/stock-portfolio-tracker.git
 cd stock-portfolio-tracker
