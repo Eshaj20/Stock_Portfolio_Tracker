@@ -39,27 +39,23 @@ Auth	    | Firebase Authentication
                           cd stock-portfolio-dashboard
                           npm install
 2. Configure API Keys
-                          Sign up for Alpha Vantage or IEX Cloud.
 
-Create a .env file:
-                          REACT_APP_API_KEY=your_api_key_here
-3. Run the App
-                          npm start
+1.Sign up for Alpha Vantage or IEX Cloud.
+2.Create a .env file:    REACT_APP_API_KEY=your_api_key_here                       
+3.Run the App:           npm start
                           Open http://localhost:3000 in your browser.
                           
 
 📂 Project Structure
 -------------------------------------------------
-stock-portfolio-dashboard/
-├── public/                  # Static assets
-├── src/
-│   ├── components/          # Reusable UI (StockCard, Navbar)
-│   ├── pages/               # Views (Dashboard, Portfolio)
-│   ├── services/            # API calls & logic
-│   ├── App.js               # Root component
-│   └── styles/              # CSS/JS styling
-├── .env                     # API keys
-└── package.json             # Dependencies
+| Directory       | Contents                                |
+|-----------------|-----------------------------------------|
+| `public/`       | Static assets (HTML, images)            |
+| `src/components`| Reusable UI (StockCard, Navbar)         |
+| `src/pages`     | Main views (Dashboard, Portfolio)       |
+| `src/services`  | API interaction logic                   |
+| `src/styles`    | CSS/JS styling files                    |
+| Root            | App configs (.env, package.json)        |
 
 🖥️ Usage Guide
 --------------------------------------------------------
