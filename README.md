@@ -22,6 +22,18 @@ A modern dashboard for tracking stock portfolios with real-time data visualizati
 | Build Tool        | Vite                             |
 
 --------------------------------------------------------------------------------
+🎨 UI Components
+LiveStockChart.js - Interactive price charts
+
+PortfolioDashboard.js - Main dashboard layout
+
+PortfolioMetrics.js - Performance statistics
+
+StockForm.js - Add/edit stock form
+
+StockList.js - Tabular stock display
+
+------------------------------------------------------------------------------
 ## 📁 Project Structure
 
 ```bash
@@ -47,20 +59,8 @@ stock-portfolio-tracker/
 ├── README.md            # Project documentation
 └── tailwind.config.js    # Tailwind CSS configuration
 -------------------------------------------------------------------------------
-🎨 UI Components
-LiveStockChart.js - Interactive price charts
 
-PortfolioDashboard.js - Main dashboard layout
-
-PortfolioMetrics.js - Performance statistics
-
-StockForm.js - Add/edit stock form
-
-StockList.js - Tabular stock display
-
-------------------------------------------------------------------------------
-
-## 🛠️ Installation
+## 🛠️ Installation  
 ```bash
 # Clone repository
 git clone https://github.com/your-username/stock-portfolio-tracker.git
