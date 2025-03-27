@@ -22,26 +22,30 @@ A modern dashboard for tracking stock portfolios with real-time data visualizati
 | Build Tool        | Vite                             |
 
 --------------------------------------------------------------------------------
-## 📂 Project Structure
+## 📁 Project Structure
 
+```bash
 stock-portfolio-tracker/
-├── node_modules/ # Dependencies
-├── public/ # Static assets
-├── src/
-│ ├── components/ # Reusable components
-│ │ ├── LiveStockChart.js # Interactive charts
-│ │ ├── PortfolioDashboard.js # Main view
-│ │ ├── PortfolioMetrics.js # Performance stats
-│ │ ├── StockForm.js # Add/edit form
-│ │ └── StockList.js # Stock listing
-│ ├── api.js # Stock data service
-│ ├── App.js # Root component
-│ ├── index.css # Global styles
-│ └── index.js # Entry point
-├── .gitignore # Git exclusion rules
-├── package.json # Project config
-├── README.md # Documentation
-└── tailwind.config.js # Tailwind configuration
+├── node_modules/          # Project dependencies
+├── public/                # Static assets (favicon, index.html)
+│
+├── src/                   # Application source code
+│   ├── components/        # React components
+│   │   ├── LiveStockChart.js     # Interactive stock charts
+│   │   ├── PortfolioDashboard.js # Main dashboard layout
+│   │   ├── PortfolioMetrics.js   # Performance analytics
+│   │   ├── StockForm.js          # Stock input form
+│   │   └── StockList.js          # Stock data table
+│   │
+│   ├── api.js            # Stock data API service
+│   ├── App.js            # Root application component
+│   ├── index.css         # Global styles
+│   └── index.js          # Application entry point
+│
+├── .gitignore            # Git ignore rules
+├── package.json          # Project configuration
+├── README.md            # Project documentation
+└── tailwind.config.js    # Tailwind CSS configuration
 -------------------------------------------------------------------------------
 🎨 UI Components
 LiveStockChart.js - Interactive price charts
@@ -53,6 +57,7 @@ PortfolioMetrics.js - Performance statistics
 StockForm.js - Add/edit stock form
 
 StockList.js - Tabular stock display
+
 ------------------------------------------------------------------------------
 
 ## 🛠️ Installation
