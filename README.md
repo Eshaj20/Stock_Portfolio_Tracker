@@ -5,8 +5,9 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
 
 A modern dashboard for tracking stock portfolios with real-time data visualization and performance metrics.
------------------------------------------------------------------------------------------------------------
+
 ## 🚀 Features
+-------------------------------------------------------------------------------------------
 - **Interactive Portfolio Dashboard**
 - **Live Stock Charts**
 - **Performance Metrics**
@@ -21,8 +22,8 @@ A modern dashboard for tracking stock portfolios with real-time data visualizati
 | State Management  | React Hooks                      |
 | Build Tool        | Vite                             |
 
---------------------------------------------------------------------------------
 🎨 UI Components
+------------------------------------------------------------------------------------------
 LiveStockChart.js - Interactive price charts
 
 PortfolioDashboard.js - Main dashboard layout
@@ -32,9 +33,9 @@ PortfolioMetrics.js - Performance statistics
 StockForm.js - Add/edit stock form
 
 StockList.js - Tabular stock display
--------------------------------------------------------------------------------
 
 ## 🛠️ Installation  
+------------------------------------------------------------------------------
 # Clone repository
                     git clone https://github.com/your-username/stock-portfolio-tracker.git
                     cd stock-portfolio-tracker
@@ -45,8 +46,8 @@ StockList.js - Tabular stock display
 # Start development server
                     npm run dev
 
-------------------------------------------------------------------------------
 ## 📁 Project Structure
+---------------------------------------------------------------------------------------
 
 ```bash
 stock-portfolio-tracker/
