@@ -1,13 +1,13 @@
 // src/components/StockList.js
 import React, { useEffect, useState } from 'react';
-import { fetchStockPrice } from '../api';
+import { fetchStockPrice } from '../services/api';
 
 const StockList = ({ stocks, deleteStock, editStock }) => {
   const [prices, setPrices] = useState({});
 
   useEffect(() => {
     const fetchPrices = async () => {
-      const pricePromises = stocks.map(stock => fetchStockPrice(stock.ticker)); // Fixed typo here
+      const pricePromises = stocks.map(stock => fetchStockPrice(stock.ticker));
       const fetchedPrices = await Promise.all(pricePromises);
       const pricesObj = {};
       fetchedPrices.forEach((priceData, index) => {
@@ -31,7 +31,7 @@ const StockList = ({ stocks, deleteStock, editStock }) => {
           <th>Buy Price</th>
           <th>Purchase Date</th>
           <th>Transaction Type</th>
-          <th>Asset Class</th>
+          <th>Asset Class</th> {/* New Column for Asset Class */}
           <th>Current Price</th>
           <th>Change (%)</th>
           <th>Actions</th>
@@ -39,18 +39,19 @@ const StockList = ({ stocks, deleteStock, editStock }) => {
       </thead>
       <tbody>
         {stocks.map((stock, index) => {
-          const priceData = prices[stock.ticker];
+          const priceData = prices[stock.ticker] || {}; // Ensure priceData is always an object
+
           return (
-            <tr key={index}>
+            <tr key={stock.id || index}>
               <td>{stock.name}</td>
               <td>{stock.ticker}</td>
               <td>{stock.quantity}</td>
               <td>{stock.buyPrice}</td>
               <td>{stock.purchaseDate}</td>
               <td>{stock.transactionType}</td>
-              <td>{stock.assetClass}</td>
-              <td>{priceData ? `$${priceData.price.toFixed(2)}` : 'Loading...'}</td>
-              <td>{priceData ? `${priceData.changePercent.toFixed(2)}%` : 'Loading...'}</td>
+              <td>{stock.assetClass}</td> {/* Display Asset Class */}
+              <td>{priceData.price ? `$${priceData.price.toFixed(2)}` : 'Loading...'}</td>
+              <td>{priceData.changePercent ? `${priceData.changePercent.toFixed(2)}%` : 'Loading...'}</td>
               <td>
                 <button onClick={() => editStock(stock)}>Edit</button>
                 <button onClick={() => deleteStock(index)}>Delete</button>
@@ -64,4 +65,5 @@ const StockList = ({ stocks, deleteStock, editStock }) => {
 };
 
 export default StockList;
+
   
