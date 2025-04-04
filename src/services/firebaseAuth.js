@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithRedirect, signInWithPopup } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAatt1maVrZLxipnto6jvv5DvAR1Jetvts",
-  authDomain: "stock-portfolio-e92d9.firebaseapp.com",  // ✅ Corrected authDomain
-  projectId: "stock-portfolio-e92d9",
-  storageBucket: "stock-portfolio-e92d9.appspot.com",
-  messagingSenderId: "498607089005",
-  appId: "1:498607089005:web:20894b3708576ba5082664",
-  measurementId: "G-76B36K0NGE"
+  apiKey: "api_key",
+  authDomain: "auth_Domain",  // ✅ Corrected authDomain
+  projectId: "project_id",
+  storageBucket: "storage_Bucket",
+  messagingSenderId: "messaging_sender_id",
+  appId: "app_id",
+  measurementId: "measurement_id"
 };
 
 // Initialize Firebase
