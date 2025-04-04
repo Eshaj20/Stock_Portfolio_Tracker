@@ -1,7 +1,7 @@
 // src/api.js
 import axios from 'axios';
 
-const API_KEY = 'WEBA8Y764XI2CDUO'; // Replace with your actual API key
+const API_KEY = 'api_key'; // Replace with your actual API key
 
 export const fetchStockPrice = async (ticker) => {
   const url = `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${ticker}&apikey=${API_KEY}`;
