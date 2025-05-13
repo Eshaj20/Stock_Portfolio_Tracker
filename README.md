@@ -1,4 +1,4 @@
-# 📈 Stock Portfolio Tracker  
+## Stock Portfolio Tracker  
 
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) 
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
@@ -6,7 +6,7 @@
 
 A modern dashboard for tracking stock portfolios with real-time data visualization and performance metrics.
 
-## 🚀 Features
+# Features
 -------------------------------------------------------------------------------------------
 - **Interactive Portfolio Dashboard**
 - **Live Stock Charts**
@@ -14,7 +14,7 @@ A modern dashboard for tracking stock portfolios with real-time data visualizati
 - **Stock Management (Add/Edit/Remove)**
 - **Responsive Design (Tailwind CSS)**
 ----------------------------------------------------------------------------------------
-## 🛠 Tech Stack
+# Tech Stack
 | Category          | Technologies Used                  |
 |-------------------|-----------------------------------|
 | Frontend          | React, Tailwind CSS               |
@@ -22,7 +22,7 @@ A modern dashboard for tracking stock portfolios with real-time data visualizati
 | State Management  | React Hooks                      |
 | Build Tool        | Vite                             |
 
-🎨 UI Components
+UI Components
 ------------------------------------------------------------------------------------------
 LiveStockChart.js - Interactive price charts
 
@@ -34,7 +34,7 @@ StockForm.js - Add/edit stock form
 
 StockList.js - Tabular stock display
 
-## 📁 Project Structure
+# Project Structure
 ---------------------------------------------------------------------------------------
 
 ```bash
@@ -59,15 +59,21 @@ stock-portfolio-tracker/
 ├── package.json          # Project configuration
 ├── README.md            # Project documentation
 └── tailwind.config.js    # Tailwind CSS configuration
+
 ```
-## 🛠️ Installation  
+
 ------------------------------------------------------------------------------
-# Clone repository
+# Installation  
+
+Clone repository :
+
                     git clone https://github.com/your-username/stock-portfolio-tracker.git
                     cd stock-portfolio-tracker
 
-# Install dependencies
+Install dependencies :
+                    
                     npm install
 
-# Start development server
+# Start development server:
+
                     npm run dev
